@@ -8,6 +8,7 @@ class School
     if roster[grade].nil?
       roster[grade] = []
     end
+    
   end
 
   # def roster
