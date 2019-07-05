@@ -13,5 +13,13 @@ class School
   def roster
   @roster
   end
+  def add_student=(grade,name)
+    @grade = grade
+    @name = name
+  end
+  def add_student
+    @grade
+    @name
+  end
 
 end# code here!
