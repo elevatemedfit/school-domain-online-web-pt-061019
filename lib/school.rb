@@ -1,10 +1,10 @@
 class School
 roster = Hash.new
-  def initialize(school)
-    @school = school
+  def initialize(name)
+    @name = name
   end
 
   def school
-    @school
+    @name
   end
 end# code here!
