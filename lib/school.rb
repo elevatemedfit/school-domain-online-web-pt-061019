@@ -19,12 +19,14 @@ class School
   end
 
   def sort
+    nuroster = []
     i = roster.keys.size-1
-    if i>=0
-      roster.values.sort
-      i-=1
+    while i >=0
+      nuroster = roster.values[i].sort
+    i = i -1
+    nuroster
   end
 end
 
 
-end# code here!
+# code here!
