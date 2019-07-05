@@ -22,8 +22,14 @@ class School
   def grade(grade)
     roster[grade]
   end
+  def student_name=(student_name)
+    @student_name = student_name
+  end
+  def student_name
+    @student_name
+  end
   def sort(grade)
-    [grade].sort
+    roster[grade].sort
   end
 
 
