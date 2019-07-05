@@ -7,13 +7,10 @@ class School
     @school
   end
 
-  def initialize(roster)
-    @roster = Hash.new
+  def roster
+    roster = Hash.new
   end
 
-  def roster
-    @roster
-  end
 
   def student
     @student
