@@ -5,7 +5,9 @@ class School
     @roster = {}
   end
   def add_student(student_name, grade)
-
+    if roster[grade].nil?
+      roster[grade] = []
+    end
   end
 
   # def roster
