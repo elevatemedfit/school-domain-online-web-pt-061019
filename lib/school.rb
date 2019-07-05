@@ -7,13 +7,19 @@ class School
     @school
   end
 
+  def roster=(roster)
+    @roster = Hash.new
+    @roster = []
+  end
+
   def roster
-    roster = Hash.new
+    @roster
   end
 
 def add_student=(name,grade)
   @name = name
   @grade = grade
+  roster << name,grade
 end
 def add_student
   @name
