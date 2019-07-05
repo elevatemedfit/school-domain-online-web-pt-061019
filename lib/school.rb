@@ -13,17 +13,14 @@ class School
     #always happens when add_student is called
     roster[grade] << student_name
   end
-  
+
   def grade(grade)
     roster[grade]
   end
-  # def student_name=(student_name)
-  #   @student_name = student_name
-  # end
-  # def student_name
-  #   @student_name
-  # end
+
   def sort
+    roster.keys
+    binding.pry
     roster.sort
     roster
   end
