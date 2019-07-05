@@ -24,6 +24,7 @@ class School
     while i >=0
       nuroster = roster.values[i].sort
     i = i -1
+  end
     nuroster
   end
 end
