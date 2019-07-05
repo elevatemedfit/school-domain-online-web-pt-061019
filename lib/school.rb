@@ -19,6 +19,9 @@ class School
   def grade
     @grade
   end
+  def grade(grade)
+    roster[grade]
+  end
 
 
 end# code here!
