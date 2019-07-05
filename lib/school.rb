@@ -29,7 +29,7 @@ class School
   #   @student_name
   # end
   def sort
-    sort
+    roster.sort
   end
 
 
