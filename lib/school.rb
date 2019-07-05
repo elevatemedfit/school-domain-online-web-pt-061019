@@ -4,7 +4,7 @@ class School
     roster = Hash.new
   end
 
-  def school
+  def name
     @name
   end
 end# code here!
