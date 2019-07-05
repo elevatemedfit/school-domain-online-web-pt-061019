@@ -25,6 +25,7 @@ class School
       roster[total_grades].sort
       total_grades-=1
   end
+end
 
 
 end# code here!
