@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    i=[]
+    i=0
     i = roster.keys.size -1
     if i >=0
       roster.values[i].sort
