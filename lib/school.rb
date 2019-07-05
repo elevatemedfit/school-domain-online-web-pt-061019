@@ -19,11 +19,9 @@ class School
   end
 
   def sort
-    i=0
-    i = roster.keys.size -1
-    if i >=0
-      roster.values[i].sort
-    i = i -1
+    @roster.each do |key,value|
+      value.sort!
+    end
   end
   end
 end
