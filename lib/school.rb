@@ -19,9 +19,8 @@ class School
   end
 
   def sort
-    i=0
-    total_grades = roster.keys.size
-    if total_grades>i
+    i = roster.keys.size
+    if i!=nil
       roster[i].sort
       i-=1
   end
