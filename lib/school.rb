@@ -19,10 +19,11 @@ class School
   end
 
   def sort
-    roster.keys
-
-    roster.sort
-    roster
+    total_grades=0
+    total_grades = roster.keys.size
+    if total_grades>0
+      roster[total_grades].sort
+      total_grades-=1
   end
 
 
