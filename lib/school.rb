@@ -18,7 +18,6 @@ class School
 def add_student=(name,grade)
   @name = name
   @grade = grade
-  @roster << name
 end
 def add_student
   @name
