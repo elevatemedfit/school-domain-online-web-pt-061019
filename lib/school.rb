@@ -22,14 +22,14 @@ class School
   def grade(grade)
     roster[grade]
   end
-  def student_name=(student_name)
-    @student_name = student_name
-  end
-  def student_name
-    @student_name
-  end
-  def sort(student_name)
-    student_name.sort
+  # def student_name=(student_name)
+  #   @student_name = student_name
+  # end
+  # def student_name
+  #   @student_name
+  # end
+  def sort
+    sort
   end
 
 
