@@ -21,7 +21,7 @@ class School
   def sort
     i = roster.keys.size
     if i!=nil
-      roster[i].sort
+      roster(i).sort
       i-=1
   end
 end
