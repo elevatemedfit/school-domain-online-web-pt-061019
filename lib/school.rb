@@ -24,7 +24,7 @@ class School
       roster.values[i].sort
     i = i -1
   end
-  
+
   end
 end
 
