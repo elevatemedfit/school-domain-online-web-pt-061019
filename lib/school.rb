@@ -9,7 +9,6 @@ class School
 
   def roster=(roster)
     @roster = Hash.new
-    @roster = []
   end
 
   def roster
