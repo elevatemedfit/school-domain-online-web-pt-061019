@@ -4,6 +4,7 @@ class School
     @name = school_name
     @roster = {}
   end
+
   def add_student(student_name, grade)
     #only happens when roster at key is empty
     if roster[grade].nil?
