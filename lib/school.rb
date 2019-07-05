@@ -19,12 +19,11 @@ class School
   end
 
   def sort
-    i = roster.keys.size
-    while i-1 >=0
+    i = roster.keys.size -1
+    if i >=0
       roster.values[i].sort
     i = i -1
   end
-
   end
 end
 
