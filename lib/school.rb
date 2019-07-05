@@ -22,7 +22,7 @@ class School
     i=0
     total_grades = roster.keys.size
     if total_grades>i
-      roster[total_grades][i].sort
+      roster[i].sort
       i-=1
   end
 end
