@@ -1,7 +1,7 @@
 class School
-roster = Hash.new
   def initialize(name)
     @name = name
+    roster = Hash.new
   end
 
   def school
