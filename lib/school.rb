@@ -1,5 +1,5 @@
 class School
-  roster = Hash.new
+
   def initialize(school)
     @school = school
   end
