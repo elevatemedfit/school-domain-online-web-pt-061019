@@ -20,7 +20,7 @@ class School
 
   def sort
     roster.keys
-    binding.pry
+
     roster.sort
     roster
   end
