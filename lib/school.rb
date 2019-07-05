@@ -13,12 +13,7 @@ class School
     #always happens when add_student is called
     roster[grade] << student_name
   end
-  def grade=(grade)
-    @grade = grade
-  end
-  def grade
-    @grade
-  end
+  
   def grade(grade)
     roster[grade]
   end
@@ -28,8 +23,8 @@ class School
   # def student_name
   #   @student_name
   # end
-  def sort(grade)
-    roster[grade].sort
+  def sort
+    roster.sort
     roster
   end
 
